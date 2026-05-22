@@ -47,14 +47,14 @@ Full analysis saved to PROSPECT-ANALYSIS.md
 ### One-Command Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-sales-team-claude/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/vikashinnamuri/Ai_claude_sales/main/install.sh | bash | bash
 ```
 
 ### Manual Install
 
 ```bash
-git clone https://github.com/zubair-trabzada/ai-sales-team-claude.git
-cd ai-sales-team-claude
+git clone https://github.com/vikashinnamuri/Ai_claude_sales.git
+cd Ai_claude_sales
 ./install.sh
 ```
 
@@ -493,7 +493,7 @@ ai-sales-team-claude/
 ./uninstall.sh
 
 # Or remotely
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-sales-team-claude/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/vikashinnamuri/Ai_claude_sales/main/install.sh | bash
 ```
 
 Removes all skills, agents, scripts, and templates from `~/.claude/`. Python packages are not removed.
